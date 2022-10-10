@@ -1,5 +1,5 @@
 package com.yasho.domain;
 
 public interface Promotion {
-    int apply();
+    int getTotal(ShoppingCart cart, CartItem cartItem);
 }
